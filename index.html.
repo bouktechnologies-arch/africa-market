@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AFRICA MARKET</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:#f5f6f8;color:#222}
+header{background:#075c43;color:white;padding:20px;text-align:center}
+header h1{margin:0;font-size:27px}
+nav{background:#064632;padding:12px;text-align:center}
+nav a{color:white;margin:10px;text-decoration:none}
+.hero{padding:35px 15px;text-align:center;background:#e1f3e9}
+.hero h2{color:#075c43}
+.search{padding:12px;width:90%;max-width:400px;border:1px solid #ccc;border-radius:8px}
+.container{padding:20px;max-width:1100px;margin:auto}
+.products{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:15px}
+.card{background:white;padding:20px;border-radius:12px;text-align:center;box-shadow:0 2px 8px #ddd}
+.card h3{color:#075c43}
+button{background:#087b55;color:white;border:0;padding:12px 20px;border-radius:7px}
+footer{background:#064632;color:white;text-align:center;padding:20px;margin-top:30px}
+</style>
+</head>
+<body>
+<header>
+<h1>🌍 AFRICA MARKET</h1>
+<p>Le marché africain commence ici</p>
+</header>
+<nav>
+<a href="#">Accueil</a>
+<a href="#boutiques">Boutiques</a>
+<a href="#produits">Produits</a>
+</nav>
+<section class="hero">
+<h2>Bienvenue sur AFRICA MARKET</h2>
+<p>Achetez et vendez partout en Afrique.</p>
+<input class="search" placeholder="Rechercher un produit...">
+</section>
+<main class="container">
+<section id="boutiques">
+<h2>🏪 Nos boutiques</h2>
+<p>Découvrez prochainement les boutiques de nos vendeurs.</p>
+</section>
+<section id="produits">
+<h2>🛍️ Nos produits</h2>
+<div class="products">
+<div class="card"><h3>Vêtements</h3><p>Mode africaine</p></div>
+<div class="card"><h3>Électronique</h3><p>Téléphones et accessoires</p></div>
+<div class="card"><h3>Maison</h3><p>Décoration et équipements</p></div>
+<div class="card"><h3>Beauté</h3><p>Produits de beauté</p></div>
+</div>
+</section>
+</main>
+<footer>
+<p>AFRICA MARKET © 2026</p>
+<p>Mali d'abord 🇲🇱</p>
+</footer>
+</body>
+</html>
